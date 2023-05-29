@@ -1,0 +1,10 @@
+@echo off
+start /B /WAIT cmd /c "dir M:\lab3"
+start /B /WAIT cmd /c "dir M:\lab3\labs"
+start /B /WAIT cmd /c "dir M:\lab3\labs\groups"
+start /B /WAIT cmd /c "dir M:\lab3\labs\groups\FIO"
+start /B /WAIT cmd /c "dir M:\lab3\labs\groups\FIO\batch"
+start /B /WAIT cmd /c "dir M:\lab3\labs\groups\FIO\batch\hide"
+start /B /WAIT cmd /c "dir M:\lab3\labs\groups\FIO\batch\open"
+start /B /WAIT cmd /c "dir M:\lab3\labs\groups\FIO\cmd\hide"
+start /B /WAIT cmd /c "dir M:\lab3\labs\groups\FIO\cmd\open & pause"
